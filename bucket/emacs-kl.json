@@ -1,10 +1,10 @@
 {
     "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
-    "homepage": "https://github.com/kiennq/emacs-build",
+    "homepage": "https://github.com/ijah4/emacs-build",
     "license": "GPLv3",
-    "version": "31.334.20250302.476b867",
-    "url": "https://github.com/kiennq/emacs-build/releases/download/v31.334.20250302.476b867/emacs-476b867-ucrt-x86_64-mps.msix",
-    "hash": "34509dbbbd94c404a2404929c90bd97cfd802f7a21ecac51af4399f6d7548332",
+    "version": "31.11.20250317.acb96a5",
+    "url": "https://github.com/ijah4/emacs-build/releases/download/v31.11.20250317.acb96a5/emacs-acb96a5-ucrt-x86_64-mps.msix",
+    "hash": "903242287bd2027c1b89e009059911a09513798f69de74b5646b759221fd1851",
     "installer": {
         "script": [
             "Get-ChildItem \"$dir\\*.msix\" | %{Expand-7zipArchive $_.FullName \"$dir\"}",
@@ -26,11 +26,11 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/kiennq/emacs-build",
+        "github": "https://github.com/ijah4/emacs-build",
         "regex": "/tag/v([\\d\\w.-]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/kiennq/emacs-build/releases/download/v$version/emacs-$buildVersion-ucrt-x86_64-mps.msix"
+        "url": "https://github.com/ijah4/emacs-build/releases/download/v$version/emacs-$buildVersion-ucrt-x86_64-mps.msix"
     },
     "shortcuts": [
         [
