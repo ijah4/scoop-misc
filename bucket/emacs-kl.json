@@ -3,7 +3,7 @@
     "homepage": "https://github.com/ijah4/emacs-build",
     "license": "GPLv3",
     "version": "31.14.20250406.ba13e7d",
-    "url": "https://github.com/ijah4/emacs-build/releases/download/31.14.20250406.ba13e7d/emacs-ba13e7d-ucrt-x86_64-mps.msix",
+    "url": "https://github.com/ijah4/emacs-build/releases/download/v31.14.20250406.ba13e7d/emacs-ba13e7d-ucrt-x86_64-mps.msix",
     "hash": "b29a64ef50c48ef7fc99dfacd832116007f24c43faa53ffa016785b53cd7dbdd",
     "installer": {
         "script": [
