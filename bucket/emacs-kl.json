@@ -2,9 +2,9 @@
     "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
     "homepage": "https://github.com/ijah4/emacs-build",
     "license": "GPLv3",
-    "version": "31.11.20250317.acb96a5",
-    "url": "https://github.com/ijah4/emacs-build/releases/download/v31.11.20250317.acb96a5/emacs-acb96a5-ucrt-x86_64-mps.msix",
-    "hash": "903242287bd2027c1b89e009059911a09513798f69de74b5646b759221fd1851",
+    "version": "31.14.20250406.ba13e7d",
+    "url": "https://github.com/ijah4/emacs-build/releases/download/31.14.20250406.ba13e7d/emacs-ba13e7d-ucrt-x86_64-mps.msix",
+    "hash": "b29a64ef50c48ef7fc99dfacd832116007f24c43faa53ffa016785b53cd7dbdd",
     "installer": {
         "script": [
             "Get-ChildItem \"$dir\\*.msix\" | %{Expand-7zipArchive $_.FullName \"$dir\"}",
